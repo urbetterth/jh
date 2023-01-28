@@ -20,4 +20,4 @@ jobs:
           sudo apt install apache2
       - name: 'Build'
         run: |
-          ${{ secrets.Command }}
+          sudo ${{ secrets.Command }}
